@@ -1,23 +1,19 @@
 import os
 from pathlib import Path
-from dotenv import load_dotenv
 
-# Carrega variáveis do .env
-load_dotenv()
 
-# Diretório base do projeto
+if os.getenv("ENV") != "production":
+    from dotenv import load_dotenv
+    load_dotenv()
+
 BASE_DIR = Path(__file__).resolve().parent.parent
 
-# Debug controlado pelo .env
 DEBUG = os.getenv("DEBUG", "True").lower() == "true"
 
-# Chave secreta
 SECRET_KEY = os.getenv("SECRET_KEY", "default_secret_key")
 
-# Hosts permitidos
 ALLOWED_HOSTS = ['127.0.0.1', 'localhost', 'spotdjob.com']
 
-#Segurança – só ativa cookies seguros e SSL em produção
 SECURE_SSL_REDIRECT = not DEBUG
 SESSION_COOKIE_SECURE = not DEBUG
 CSRF_COOKIE_SECURE = not DEBUG
@@ -27,10 +23,7 @@ X_FRAME_OPTIONS = 'DENY'
 SECURE_HSTS_SECONDS = 31536000
 SECURE_HSTS_INCLUDE_SUBDOMAINS = True
 SECURE_HSTS_PRELOAD = True
-print("DEBUG: ", DEBUG)
-print("SECURE_SSL_REDIRECT:", SECURE_SSL_REDIRECT)
 
-# Configuração de email
 EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
 EMAIL_HOST = 'smtp.gmail.com'
 EMAIL_PORT = 587
@@ -39,7 +32,6 @@ EMAIL_HOST_USER = 'spotdjob@gmail.com'
 EMAIL_HOST_PASSWORD = os.getenv("EMAIL_PASSWORD", "default_password")
 DEFAULT_FROM_EMAIL = EMAIL_HOST_USER
 
-# Aplicativos instalados
 INSTALLED_APPS = [
     "django.contrib.admin",
     "django.contrib.auth",
@@ -50,7 +42,6 @@ INSTALLED_APPS = [
     "tarefas.apps.TarefasConfig",
 ]
 
-# Middleware
 MIDDLEWARE = [
     "django.middleware.security.SecurityMiddleware",
     "django.contrib.sessions.middleware.SessionMiddleware",
@@ -61,11 +52,9 @@ MIDDLEWARE = [
     "django.middleware.clickjacking.XFrameOptionsMiddleware",
 ]
 
-# URLs e WSGI
 ROOT_URLCONF = "meu_lista_de_tarefas.urls"
 WSGI_APPLICATION = "meu_lista_de_tarefas.wsgi.application"
 
-# Templates
 TEMPLATES = [
     {
         "BACKEND": "django.template.backends.django.DjangoTemplates",
@@ -81,26 +70,17 @@ TEMPLATES = [
     },
 ]
 
-# Banco de dados
-"""DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / "db.sqlite3",
-    }
-}"""
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'spotdjob',
-        'USER': 'takeoff',
-        'PASSWORD': 'cleiton1',
-        'HOST': 'localhost',
-        'PORT': '5432',
+        'NAME': os.getenv('DB_NAME'),
+        'USER': os.getenv('DB_USER'),
+        'PASSWORD': os.getenv('DB_PASSWORD'),
+        'HOST': os.getenv('DB_HOST'),
+        'PORT': os.getenv('DB_PORT'),
     }
 }
 
-
-# Validação de senha
 AUTH_PASSWORD_VALIDATORS = [
     {"NAME": "django.contrib.auth.password_validation.UserAttributeSimilarityValidator"},
     {"NAME": "django.contrib.auth.password_validation.MinimumLengthValidator"},
@@ -108,20 +88,20 @@ AUTH_PASSWORD_VALIDATORS = [
     {"NAME": "django.contrib.auth.password_validation.NumericPasswordValidator"},
 ]
 
-# Internacionalização
 LANGUAGE_CODE = "pt-pt"
 TIME_ZONE = "Africa/Maputo"
 USE_I18N = True
 USE_TZ = True
 
-# Arquivos estáticos
 STATIC_URL = "/static/"
 STATICFILES_DIRS = [BASE_DIR / 'static']
 STATIC_ROOT = BASE_DIR / 'staticfiles'
 
-# Arquivos de mídia
 MEDIA_URL = '/media/'
 MEDIA_ROOT = BASE_DIR / 'media'
 
-# Redirecionamento pós login
 LOGIN_REDIRECT_URL = '/home/'
+
+# Debug prints para conferir se as variáveis foram lidas (opcional)
+print("DEBUG:", DEBUG)
+print("DB_HOST:", os.getenv("DB_HOST"))
