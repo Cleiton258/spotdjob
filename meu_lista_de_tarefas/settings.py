@@ -12,7 +12,7 @@ DEBUG = os.getenv("DEBUG", "True").lower() == "true"
 
 SECRET_KEY = os.getenv("SECRET_KEY", "default_secret_key")
 
-ALLOWED_HOSTS = ['127.0.0.1', 'localhost', 'spotdjob.com']
+ALLOWED_HOSTS = ['127.0.0.1', 'localhost', 'spotdjob.com', 'spotdjob-1.onrender.com']
 
 SECURE_SSL_REDIRECT = not DEBUG
 SESSION_COOKIE_SECURE = not DEBUG
