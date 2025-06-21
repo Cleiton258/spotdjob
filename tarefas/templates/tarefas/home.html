@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="pt">
+  <head>
+    <meta charset="utf-8">
+    <title>SpotDjob - Vagas de Emprego</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+      body {
+        background-color: rgb(4, 27, 54);
+        padding-top: 60px;
+        min-height: 100vh;
+        color: white;
+        text-align: center;
+      }
+
+      .titulo-principal {
+        font-size: 2.5rem;
+        font-weight: bold;
+        color: #ffffff;
+        margin-bottom: 30px;
+      }
+
+      .botoes-centrais {
+        margin-bottom: 60px;
+      }
+
+      .btn-success {
+        background-color: #198754;
+        border: none;
+        font-weight: bold;
+        margin: 0 10px;
+      }
+
+      .btn-success:hover {
+        background-color: #157347;
+      }
+
+      .bloco-bemvindo {
+        font-size: 1.2rem;
+        margin-bottom: 40px;
+        color: #ccc;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="titulo-principal">Bem-vindo à SpotDjob</h1>
+      <p class="bloco-bemvindo">Descubra cursos e empregos nas melhores áreas profissionais!</p>
+
+      <div class="botoes-centrais">
+        <a href="{% url 'proc_curso' %}" class="btn btn-success btn-lg">Procurar Curso</a>
+        <a href="{% url 'proc_emprego' %}" class="btn btn-success btn-lg">Procurar Emprego</a>
+      </div>
+    </div>
+    <footer class="text-center mt-5 text-light">
+      © 2025 Cleiton Ernesto Cumbane - Todos os direitos reservados.
+    </footer>
+    
+       <div class="text-end mb-3">
+          <a href="{% url 'Terminar_sessao' %}" class="btn btn-outline-light">Terminar Sessão</a>
+       </div>
+    
+
+    
+  </body>
+</html>
+<!--© 2025 Cleiton Ernesto Cumbane. Todos os direitos reservados.
+   Este código faz parte do projeto SpotDjob.
+   Uso não autorizado, cópia ou distribuição são proibidos sem permissão.
+   """-->
+<!-- <div class="container">
+      {% for par in lista_pares %}
+         <div class="row mb-3 border p-3 rounded shadow-sm align-items-center">
+          <div class="col-md-6">
+            <h5>Curso: {{ par.curso.titulo }}</h5>
+            <p><strong>Descricao: </strong> {{ par.curso.Descricao_curso }}</p>
+            <a href="{% url 'curso_detalhes' par.curso.id %}" class="btn btn-primary btn-sm">Detalhes do curso</a>
+          </div>
+          <div class="col-md-6">
+            {% if par.vaga %}
+                  <h5>Emprego: {{ par.vaga.titulo }} </h5>
+                  <p><strong>Descricao:</strong> {{ par.vaga.Descricao }} </p>
+                  <a href="{% url 'vaga_detalhes' par.vaga.id %}" class="btn btn-success btn-sm">Detalhes do curso</a>
+            {% else %}
+                  <p><em>Sem vaga relacionada no momento</em></p>
+            {% endif %}
+          </div>
+         </div>
+      {% empty %}
+         <p>Nenhum curso Emprego encontrado</p>
+      {% endfor %}
+      BREVEMENTE
+    </div> -->

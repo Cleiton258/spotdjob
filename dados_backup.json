@@ -1,0 +1,1022 @@
+[
+{
+  "model": "contenttypes.contenttype",
+  "fields": {
+    "app_label": "admin",
+    "model": "logentry"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "fields": {
+    "app_label": "auth",
+    "model": "permission"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "fields": {
+    "app_label": "auth",
+    "model": "group"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "fields": {
+    "app_label": "auth",
+    "model": "user"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "fields": {
+    "app_label": "contenttypes",
+    "model": "contenttype"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "fields": {
+    "app_label": "sessions",
+    "model": "session"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "fields": {
+    "app_label": "tarefas",
+    "model": "minha_tarefa"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "fields": {
+    "app_label": "tarefas",
+    "model": "vaga"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "fields": {
+    "app_label": "tarefas",
+    "model": "curso"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "fields": {
+    "app_label": "tarefas",
+    "model": "cursar"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "fields": {
+    "app_label": "tarefas",
+    "model": "empregar"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "3owuypnff8pvllfygep3y9kcunf8gw2z",
+  "fields": {
+    "session_data": ".eJxVjEEOwiAQRe_C2hCgQwWX7nsGMjCDVA0kpV0Z765NutDtf-_9lwi4rSVsnZcwk7gIo8Tpd4yYHlx3QnestyZTq-syR7kr8qBdTo34eT3cv4OCvXxrPIOKjrUefLJDNGbIzivLozWgRgbWiUDrzOisTUSerVcMiD458JnE-wPwazgK:1uSBX0:tpcgJp3xP6FLi0rVkLtLsEjamaB0ymK2iXEuwn0G_jE",
+    "expire_date": "2025-07-03T09:26:02.338Z"
+  }
+},
+{
+  "model": "tarefas.empregar",
+  "pk": 8,
+  "fields": {
+    "empresa": "Britam Moçambique",
+    "titulo": "Analista de Desenvolvimento de Negócios",
+    "Descricao": "A Britam Moçambique está a recrutar um (1) Analista de Desenvolvimento de Negócios para Pemba.",
+    "responsabilidades": "Ser responsável pelas vendas do Balcão de Pemba;\r\nReportar as acitividades desenvolvidas no Balcão a Directora de Vendas;\r\nDesenvolver e manter boas relações de trabalho com Correctores, Agentes, Promotores de Seguro e Clientes Directos;\r\nParticipar na promoção de novos produtos através de visitas regulares e comunicação frequente com Intermediários e Clientes Directos;\r\nResponder às dúvidas e preocupações de todos Clientes Internos & Externos;\r\nTer o controlo de crédito de devedores de seguros gerais;\r\nFornecer Treinamento para Corretores e Agentes Independentes e Promotores;\r\nNegociar termos de acordos e fechar negócios;\r\nNegociar Prémios e garantir que as Apólices sejam enviadas no Dia e Horário estipulado;\r\nRever o seu próprio desempenho, com vista atingir ou superar Metas;\r\nAnalisar o risco e fornecer Cotações aos Clientes;\r\nFazer pessoalmente a manutenção e desenvolvimento de relacionamentos com os Clientes existentes;\r\nDesempenhar quaisquer outras funções que possam ser atribuídas ao longo.",
+    "requisitos": "Nível Superior Completo em Gestão de Empresas ou áreas afins;\r\nCertificações em Vendas e Marketing;\r\nQualificação profissional no domínio dos seguros;\r\n5 anos de experiência numa posição semelhante, dois dos quais numa posição de supervisão;\r\nFluência em língua portuguesa e inglesa, oral e escrita.",
+    "processo_candidatura": "recrutamento@britam.com",
+    "data_de_publicacao": "2025-06-17",
+    "data_limite": "2025-06-20",
+    "imagem": "Imagem_vaga/images.jpeg",
+    "localizacao": "Pemba",
+    "site": null
+  }
+},
+{
+  "model": "tarefas.empregar",
+  "pk": 9,
+  "fields": {
+    "empresa": "Associacao ComuSanas",
+    "titulo": "Promotores de projecto",
+    "Descricao": "A Associação Comusanas está a recrutar 53 promotores para o projecto SOFSAN para Distrito de Maringue.",
+    "responsabilidades": "10ª Classe e no mínimo, saiba ler e escrever;\r\nSer residente nas comunidades que concorre;\r\nTer experiências anteriores em projectos comunitários será uma vantagem;\r\nExcelentes habilidades de comunicação;\r\nBoas habilidades interpessoais;\r\nConhecimento perfeito do idioma local (Sena e Ndau);\r\nTer domínio de uso de telefone;\r\nNacionalidade moçambicana.Promover campanhas de sensibilização nas comunidades alocadas;\r\nSensibilizar as comunidades para a construção latrinas resilientes á mudanças climáticas e que atendem as questões ligadas ao gênero;\r\nPromover competições entre as suas comunidades para o alcance de estatuto LIFECA;\r\nSensibilizar as comunidades para a criação de grupos de poupanças inclusivos tendo em contas os grupos marginalizados (Mulheres, portadores de deficiência entre outros);\r\nPreencher as fichas de recolha de dados e relatórios periódicos;\r\nPlanificar as sessões semanais de sensibilização;\r\nDespertar as comunidades no âmbito da abordagem SANTOLIC;",
+    "requisitos": "Curriculum Vitae;\r\nDeclaração de residência;\r\nCópia de BI;\r\nCertificado de formações;\r\nCartas de referências se aplicável.\r\n\r\nOs interessados deverão submeter sua documentação na sede da localidade a que concorre indicando o assunto “Promotor de saneamento para o Projecto SOFSAN”.",
+    "processo_candidatura": null,
+    "data_de_publicacao": "2025-06-17",
+    "data_limite": "2025-06-20",
+    "imagem": "Imagem_vaga/Associacao-ComuSanas-Comunidades.webp",
+    "localizacao": "Maringue,sofala",
+    "site": null
+  }
+},
+{
+  "model": "tarefas.empregar",
+  "pk": 10,
+  "fields": {
+    "empresa": "Contact",
+    "titulo": "Agentes de Atendimento de Call Center – Inglês",
+    "Descricao": "A Contact está a recrutar para o seu cliente, uma empresa que actua na área de telecomunicações, quarenta (40) Agentes de Atendimento de Call Center – inglês (m/f)",
+    "responsabilidades": "Ser responsável por realizar o atendimento ao cliente, no âmbito do call center, sendo responsáveis pela rápida resolução de questões de esclarecimento de dúvidas, transmitindo sempre uma imagem positiva da instituição.",
+    "requisitos": "Nível Médio Geral ou equivalente;\r\nMínimo de 02 anos de experiência profissional em funções similares (Preferencialmente em Call Center);\r\nConhecimento geral de Contabilidade;\r\nBons conhecimentos de Informática (principalmente no uso de tecnologia digital);\r\nBoa capacidade de comunicação;\r\nCapacidade de trabalhar sob pressão;\r\nFluente em Inglês (oral e escrito);\r\nDisponibilidade para trabalhar em turnos e folgas variáveis;\r\nPossuir residência em Maputo;\r\nNacionalidade Moçambicana.",
+    "processo_candidatura": null,
+    "data_de_publicacao": "2025-06-17",
+    "data_limite": "2025-06-22",
+    "imagem": "Imagem_vaga/o-que-e-call-center.webp",
+    "localizacao": null,
+    "site": "https://apply.workable.com/contact."
+  }
+},
+{
+  "model": "tarefas.cursar",
+  "pk": 1,
+  "fields": {
+    "instituicao": "Escola Nacional da aeronautica",
+    "Nome_curso": "Eletronica e telecomunicacoes",
+    "localizacao": null,
+    "email_contato": null,
+    "site": null,
+    "imagem": "",
+    "Descricao_curso": "eletronica e telecomunicacoes",
+    "requisitos": "decima primeira e decima segunda",
+    "inscricao": "200Mts",
+    "mensalidade": "5000Mts",
+    "inicio_inscricao": "2025-06-15",
+    "limite_inscricao": "2025-06-30",
+    "Duracao": null,
+    "palavrsa_chave": "Eletronica e telecomunicacoes"
+  }
+},
+{
+  "model": "tarefas.cursar",
+  "pk": 2,
+  "fields": {
+    "instituicao": "Escola Nacional de Aeronáutica",
+    "Nome_curso": "Curso Técnico em Eletrônica e Telecomunicações",
+    "localizacao": "Maputo",
+    "email_contato": "ena@gmail.com",
+    "site": "https://ena.com",
+    "imagem": "Imagem_curso/3.jpg",
+    "Descricao_curso": "Curso voltado para formação técnica em manutenção, instalação e operação de sistemas eletrônicos e de telecomunicações, com enfoque prático e teórico.",
+    "requisitos": "10ª classe concluída\r\n\r\nConhecimentos básicos em Matemática e Física\r\n\r\nInteresse pela área de tecnologia",
+    "inscricao": 1000,
+    "mensalidade": 5000,
+    "inicio_inscricao": "2025-06-17",
+    "limite_inscricao": "2025-06-30",
+    "Duracao": null,
+    "palavrsa_chave": ""
+  }
+},
+{
+  "model": "tarefas.cursar",
+  "pk": 3,
+  "fields": {
+    "instituicao": "Escola Nacional da aeronautica",
+    "Nome_curso": "Eletronica e telecomunicacoes",
+    "localizacao": "Maputo",
+    "email_contato": "ena@gmail.com",
+    "site": "https://ena.com",
+    "imagem": "Imagem_curso/3_rw2TQ2r.jpg",
+    "Descricao_curso": "Curso voltado para formação técnica em manutenção, instalação e operação de sistemas eletrônicos e de telecomunicações, com enfoque prático e teórico.",
+    "requisitos": "10ª classe concluída;Conhecimentos básicos em Matemática e Física;Interesse pela área de tecnologia.",
+    "inscricao": 1000,
+    "mensalidade": 5000,
+    "inicio_inscricao": "2025-06-18",
+    "limite_inscricao": "2025-06-30",
+    "Duracao": 3,
+    "palavrsa_chave": ""
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can add log entry",
+    "content_type": [
+      "admin",
+      "logentry"
+    ],
+    "codename": "add_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can change log entry",
+    "content_type": [
+      "admin",
+      "logentry"
+    ],
+    "codename": "change_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can delete log entry",
+    "content_type": [
+      "admin",
+      "logentry"
+    ],
+    "codename": "delete_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can view log entry",
+    "content_type": [
+      "admin",
+      "logentry"
+    ],
+    "codename": "view_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can add permission",
+    "content_type": [
+      "auth",
+      "permission"
+    ],
+    "codename": "add_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can change permission",
+    "content_type": [
+      "auth",
+      "permission"
+    ],
+    "codename": "change_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can delete permission",
+    "content_type": [
+      "auth",
+      "permission"
+    ],
+    "codename": "delete_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can view permission",
+    "content_type": [
+      "auth",
+      "permission"
+    ],
+    "codename": "view_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can add group",
+    "content_type": [
+      "auth",
+      "group"
+    ],
+    "codename": "add_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can change group",
+    "content_type": [
+      "auth",
+      "group"
+    ],
+    "codename": "change_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can delete group",
+    "content_type": [
+      "auth",
+      "group"
+    ],
+    "codename": "delete_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can view group",
+    "content_type": [
+      "auth",
+      "group"
+    ],
+    "codename": "view_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can add user",
+    "content_type": [
+      "auth",
+      "user"
+    ],
+    "codename": "add_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can change user",
+    "content_type": [
+      "auth",
+      "user"
+    ],
+    "codename": "change_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can delete user",
+    "content_type": [
+      "auth",
+      "user"
+    ],
+    "codename": "delete_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can view user",
+    "content_type": [
+      "auth",
+      "user"
+    ],
+    "codename": "view_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can add content type",
+    "content_type": [
+      "contenttypes",
+      "contenttype"
+    ],
+    "codename": "add_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can change content type",
+    "content_type": [
+      "contenttypes",
+      "contenttype"
+    ],
+    "codename": "change_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can delete content type",
+    "content_type": [
+      "contenttypes",
+      "contenttype"
+    ],
+    "codename": "delete_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can view content type",
+    "content_type": [
+      "contenttypes",
+      "contenttype"
+    ],
+    "codename": "view_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can add session",
+    "content_type": [
+      "sessions",
+      "session"
+    ],
+    "codename": "add_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can change session",
+    "content_type": [
+      "sessions",
+      "session"
+    ],
+    "codename": "change_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can delete session",
+    "content_type": [
+      "sessions",
+      "session"
+    ],
+    "codename": "delete_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can view session",
+    "content_type": [
+      "sessions",
+      "session"
+    ],
+    "codename": "view_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can add minha_tarefa",
+    "content_type": [
+      "tarefas",
+      "minha_tarefa"
+    ],
+    "codename": "add_minha_tarefa"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can change minha_tarefa",
+    "content_type": [
+      "tarefas",
+      "minha_tarefa"
+    ],
+    "codename": "change_minha_tarefa"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can delete minha_tarefa",
+    "content_type": [
+      "tarefas",
+      "minha_tarefa"
+    ],
+    "codename": "delete_minha_tarefa"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can view minha_tarefa",
+    "content_type": [
+      "tarefas",
+      "minha_tarefa"
+    ],
+    "codename": "view_minha_tarefa"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can add vaga",
+    "content_type": [
+      "tarefas",
+      "vaga"
+    ],
+    "codename": "add_vaga"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can change vaga",
+    "content_type": [
+      "tarefas",
+      "vaga"
+    ],
+    "codename": "change_vaga"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can delete vaga",
+    "content_type": [
+      "tarefas",
+      "vaga"
+    ],
+    "codename": "delete_vaga"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can view vaga",
+    "content_type": [
+      "tarefas",
+      "vaga"
+    ],
+    "codename": "view_vaga"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can add curso",
+    "content_type": [
+      "tarefas",
+      "curso"
+    ],
+    "codename": "add_curso"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can change curso",
+    "content_type": [
+      "tarefas",
+      "curso"
+    ],
+    "codename": "change_curso"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can delete curso",
+    "content_type": [
+      "tarefas",
+      "curso"
+    ],
+    "codename": "delete_curso"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can view curso",
+    "content_type": [
+      "tarefas",
+      "curso"
+    ],
+    "codename": "view_curso"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can add cursar",
+    "content_type": [
+      "tarefas",
+      "cursar"
+    ],
+    "codename": "add_cursar"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can change cursar",
+    "content_type": [
+      "tarefas",
+      "cursar"
+    ],
+    "codename": "change_cursar"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can delete cursar",
+    "content_type": [
+      "tarefas",
+      "cursar"
+    ],
+    "codename": "delete_cursar"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can view cursar",
+    "content_type": [
+      "tarefas",
+      "cursar"
+    ],
+    "codename": "view_cursar"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can add empregar",
+    "content_type": [
+      "tarefas",
+      "empregar"
+    ],
+    "codename": "add_empregar"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can change empregar",
+    "content_type": [
+      "tarefas",
+      "empregar"
+    ],
+    "codename": "change_empregar"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can delete empregar",
+    "content_type": [
+      "tarefas",
+      "empregar"
+    ],
+    "codename": "delete_empregar"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can view empregar",
+    "content_type": [
+      "tarefas",
+      "empregar"
+    ],
+    "codename": "view_empregar"
+  }
+},
+{
+  "model": "auth.user",
+  "fields": {
+    "password": "pbkdf2_sha256$1000000$yYLLduw2hiaQN6oK8s6Unx$axAZMTawljXxLnPNlpSPFKPje2nZ342SU5qaDv8Q0sM=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "Cleiton",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2025-06-07T17:29:09.592Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "fields": {
+    "password": "pbkdf2_sha256$1000000$uMMBfcmZYqxcVmKSMrhOhf$+MauJtjkoPKJ6QtoOH63N23OpezonuDje2LP23v9O28=",
+    "last_login": "2025-06-07T18:04:37.922Z",
+    "is_superuser": false,
+    "username": "Santos",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2025-06-07T17:50:58.188Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "fields": {
+    "password": "pbkdf2_sha256$1000000$pKYZxfhmvg7zWA87M6RSAb$EYXMmqRt8dZejhsGHDzEpHdXKaVGk2gngUpVjUte3yo=",
+    "last_login": "2025-06-07T20:49:16.321Z",
+    "is_superuser": false,
+    "username": "tomas",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2025-06-07T20:47:56.069Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "fields": {
+    "password": "pbkdf2_sha256$1000000$UZR5So6QEW2WpnagixEggV$4OMOb5YurW9lX+YIHRtt8difd27piQMrdK/ob6h3ndc=",
+    "last_login": "2025-06-07T21:10:45.620Z",
+    "is_superuser": false,
+    "username": "Bento",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2025-06-07T20:52:04.153Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "fields": {
+    "password": "pbkdf2_sha256$1000000$1cEboJjst4fw0ATRpzNIhE$Qzv74Vod3sXlVqE/cQswptBdhgRu1mp2EvBanI2SFLU=",
+    "last_login": "2025-06-07T21:12:31.008Z",
+    "is_superuser": false,
+    "username": "pedo",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2025-06-07T21:12:05.025Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "fields": {
+    "password": "pbkdf2_sha256$1000000$dBxV9RHjBEU3vM0Yn2uRJX$pGZxzs8Y+7eoE+cJrzrGvr81o8Z8ErFfoIXOMIDFViI=",
+    "last_login": "2025-06-07T21:20:58.955Z",
+    "is_superuser": false,
+    "username": "jose",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2025-06-07T21:20:34.660Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "fields": {
+    "password": "pbkdf2_sha256$1000000$hlAD4suIA59fKhcS3a6VzB$A6mgdw+CmvN2PgpnfNrxb1tDZcLS28/3dVPcPntV0RI=",
+    "last_login": "2025-06-11T12:12:51.594Z",
+    "is_superuser": false,
+    "username": "Carlos",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2025-06-11T12:12:21.007Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "fields": {
+    "password": "pbkdf2_sha256$1000000$EcX3l20aJwAT16x2KhBwuZ$qT4YVakxojxKiD3NkzZMUmj9gu8ipl9BIaI/RHIm2r4=",
+    "last_login": "2025-06-11T13:49:42.110Z",
+    "is_superuser": false,
+    "username": "CleitonErnesto",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2025-06-11T13:48:45.019Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "fields": {
+    "password": "pbkdf2_sha256$1000000$Up2UMtygaiUyYl1dmRJ8pe$3QjimVPApCuHbUUWUh+05a2xC8VVQX9kqKX1xZrxMNs=",
+    "last_login": "2025-06-14T19:57:58.618Z",
+    "is_superuser": false,
+    "username": "davi",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2025-06-11T15:39:12.165Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "fields": {
+    "password": "pbkdf2_sha256$1000000$9R7QsQXvREC4F718fKiNc2$xWCbr2yV62nD2OTOb6Q8ldi7RpDRrmSgHYFimRe84nQ=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "cumbane",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2025-06-12T21:53:40.168Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "fields": {
+    "password": "pbkdf2_sha256$1000000$LYtgiduzwUGZTGR10BMl7C$b4WHbR0JJk8GJz75Az/khxEusdXf6G0lP+aMm8+B6ls=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "kappa",
+    "first_name": "",
+    "last_name": "",
+    "email": "cleitonernestocumbane0101@gmail.com",
+    "is_staff": false,
+    "is_active": false,
+    "date_joined": "2025-06-13T16:34:19.251Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "fields": {
+    "password": "pbkdf2_sha256$1000000$hFu4r7yKirGPjT5w20IwNq$X2wOdb9vfL0CEePahSRp7zL8vv/nBhhwe8GB4nwazp4=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "kapakapa",
+    "first_name": "",
+    "last_name": "",
+    "email": "cleitonernestocumbane0101@gmail.com",
+    "is_staff": false,
+    "is_active": false,
+    "date_joined": "2025-06-13T16:44:00.153Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "fields": {
+    "password": "pbkdf2_sha256$1000000$HSu9XsGfKhV48gbhhVUvRx$5zl5kkquPd3El5VH0aNZdA0JlZLui2w10toSqaHK6X8=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "eusou",
+    "first_name": "",
+    "last_name": "",
+    "email": "cleitonernestocumbane0101@gmail.com",
+    "is_staff": false,
+    "is_active": false,
+    "date_joined": "2025-06-13T19:02:16.481Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "fields": {
+    "password": "pbkdf2_sha256$1000000$Szb4WXJVXHT2uIypHAqOg9$VbhscNPMiJ5ZYk2OgO6XRAGY5SFsdu0ZBxbcgEATB9w=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "Caka",
+    "first_name": "",
+    "last_name": "",
+    "email": "cleitonernestocumbane0101@gmail.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2025-06-13T19:14:21.729Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "fields": {
+    "password": "pbkdf2_sha256$1000000$3X25wzVRHesIYh6AAlvIiN$mVN0f/yPr5tr2jFvsPz4RdPg2zp8lLRDlWSr9IDCmSk=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "akino",
+    "first_name": "",
+    "last_name": "",
+    "email": "cleitonernestocumbane0101@gmail.com",
+    "is_staff": false,
+    "is_active": false,
+    "date_joined": "2025-06-13T19:33:25.871Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "fields": {
+    "password": "pbkdf2_sha256$1000000$FWJECkbjfM5omgNtYVKdyZ$BS4nGWud2XHxkTxAKbydvqquVBblQcrF71byta6Vv1A=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "mbape",
+    "first_name": "",
+    "last_name": "",
+    "email": "cleitonernestocumbane0101@gmail.com",
+    "is_staff": false,
+    "is_active": false,
+    "date_joined": "2025-06-13T19:34:42.816Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "fields": {
+    "password": "pbkdf2_sha256$1000000$CKICoxn8RGBG8cD3A0Hx3A$LGLundXj4imQaosfDSpYfV/CjjyqvIEVvvMm4NmUfm0=",
+    "last_login": "2025-06-13T20:52:46.562Z",
+    "is_superuser": false,
+    "username": "kali",
+    "first_name": "",
+    "last_name": "",
+    "email": "cleitonernestocumbane0101@gmail.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2025-06-13T20:51:54.597Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "fields": {
+    "password": "pbkdf2_sha256$1000000$5JiVU2yPAaB36DM7HNHKGn$6DVm0ZeMNN3TZxYtb05RNYiL5IOsWKunnCUgFSZigI8=",
+    "last_login": "2025-06-14T16:39:07.379Z",
+    "is_superuser": false,
+    "username": "lucas",
+    "first_name": "",
+    "last_name": "",
+    "email": "cleitonernestocumbane0101@gmail.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2025-06-14T16:36:33.753Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "fields": {
+    "password": "pbkdf2_sha256$1000000$r5u7oDkp13MyYC7FNtLKJ5$JBuqSk0A8e5Y+8HT/tWUow+F40oP0AI1YRDUcuBDSFk=",
+    "last_login": "2025-06-14T18:55:14.889Z",
+    "is_superuser": false,
+    "username": "salo",
+    "first_name": "",
+    "last_name": "",
+    "email": "cleitonernestocumbane0101@gmail.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2025-06-14T18:53:53.894Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "fields": {
+    "password": "pbkdf2_sha256$1000000$QJyObsbfLS1sX1aWx523tD$7qLvyHzK5TZHEI+NB4pZUgoOC2Czq5mdmycP9HmF5/o=",
+    "last_login": "2025-06-19T09:26:02.056Z",
+    "is_superuser": false,
+    "username": "kalax",
+    "first_name": "",
+    "last_name": "",
+    "email": "cleitonernestocumbane0101@gmail.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2025-06-17T10:31:19.048Z",
+    "groups": [],
+    "user_permissions": []
+  }
+}
+]
