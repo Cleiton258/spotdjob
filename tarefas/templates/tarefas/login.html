@@ -79,7 +79,7 @@
     <form method="post">
       {% csrf_token %}
       {{ form.as_p }}
-      <div class="d-grd mt-3">
+      <div class="d-grid mt-3">
         <button type="submit" class="btn btn-primary-custom">Entrar</button>
       </div>
     </form>
@@ -91,7 +91,7 @@
     <hr>
 
     <div class="d-grid">
-      <a href="{% url 'resgister' %}" class="btn btn-success">Criar nova conta</a>
+      <a href="{% url 'register' %}" class="btn btn-success">Criar nova conta</a>
     </div>
   </div>
   
