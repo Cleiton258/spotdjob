@@ -40,7 +40,6 @@ urlpatterns = [
     path('Curso', Curso__vend.as_view(), name="proc_curso" ),
     path('detalhes_Curso/<int:curso_id>/', curso_detalhes, name="curso_detalhes"),
     path('adicionar_curso/', adicionar_curso, name="adicionar_curso"),
-    path('terminar_sessao/', term_sessao.as_view(), name="Terminar_sessao" ),
     path('sobre/', sobre.as_view(), name="sobre"),
     path('logout/', custom_logout, name='logout'),
 ] + static(settings.MEDIA_URL, document_root = settings.MEDIA_ROOT)
