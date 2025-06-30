@@ -43,7 +43,7 @@ urlpatterns = [
     path('adicionar_curso/', adicionar_curso, name="adicionar_curso"),
     path('terminar_sessao/', term_sessao.as_view(), name="Terminar_sessao" ),
     path('sobre/', sobre.as_view(), name="sobre"),
-    path('logout/', LogoutView.as_view(next_page='login'), name='logout'),
+    path('logout/', LogoutView.as_view(next_page='Tela_login'), name='logout'),
 ] + static(settings.MEDIA_URL, document_root = settings.MEDIA_ROOT)
 
 """© 2025 Cleiton Ernesto Cumbane. Todos os direitos reservados.
