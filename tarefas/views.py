@@ -19,9 +19,11 @@ from django.http import HttpResponse
 from django.contrib.auth.models import User
 from django.views import View
     
-class customLoginView(LoginView):
+class CustomLoginView(LoginView):
     template_name = "tarefas/login.html"
-    success_url =reverse_lazy("home")
+
+    def get_success_url(self):
+        return reverse_lazy("home")
     
 def send_activate_email(user, request):
     print("Enviando email de activacao")

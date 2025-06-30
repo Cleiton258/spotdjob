@@ -18,14 +18,14 @@ from django.contrib import admin
 from django.urls import path
 from django.conf.urls.static import static
 from django.conf import settings
-from tarefas.views import  customLoginView #custom_logout
+from tarefas.views import  CustomLoginView #custom_logout
 from django.shortcuts import redirect
 from tarefas.views import RegisterView, home, adicionar_vaga, vaga_detalhes, sobre
 from django.contrib.auth import views as auth_views
 from tarefas.views import activateAccountView, Emprego, Curso__vend, curso_detalhes, adicionar_curso
 urlpatterns = [
     path("admin/", admin.site.urls),
-    path("login", customLoginView.as_view(), name="Tela_login"),
+    path("login", CustomLoginView.as_view(), name="Tela_login"),
     path('', lambda request: redirect('Tela_login')),
     path('activate/<str:token>/', activateAccountView.as_view(), name='activate_account'),
     path('register/', RegisterView.as_view(), name="register"),
