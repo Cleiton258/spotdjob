@@ -14,14 +14,13 @@ Including another URLconf
     1. Import the include() function: from django.urls import include, path
     2. Add a URL to urlpatterns:  path('blog/', include('blog.urls'))
 """
-from django.contrib.auth.views import LogoutView
 from django.contrib import admin
 from django.urls import path
 from django.conf.urls.static import static
 from django.conf import settings
-from tarefas.views import  customLoginView
+from tarefas.views import  customLoginView, custom_logout
 from django.shortcuts import redirect
-from tarefas.views import RegisterView, home, adicionar_vaga, vaga_detalhes, term_sessao, sobre
+from tarefas.views import RegisterView, home, adicionar_vaga, vaga_detalhes, sobre
 from django.contrib.auth import views as auth_views
 from tarefas.views import activateAccountView, Emprego, Curso__vend, curso_detalhes, adicionar_curso
 urlpatterns = [
@@ -43,7 +42,7 @@ urlpatterns = [
     path('adicionar_curso/', adicionar_curso, name="adicionar_curso"),
     path('terminar_sessao/', term_sessao.as_view(), name="Terminar_sessao" ),
     path('sobre/', sobre.as_view(), name="sobre"),
-    path('logout/', LogoutView.as_view(next_page='Tela_login'), name='logout'),
+    path('logout/', custom_logout, name='logout'),
 ] + static(settings.MEDIA_URL, document_root = settings.MEDIA_ROOT)
 
 """© 2025 Cleiton Ernesto Cumbane. Todos os direitos reservados.
