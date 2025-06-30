@@ -41,7 +41,7 @@ urlpatterns = [
     path('detalhes_Curso/<int:curso_id>/', curso_detalhes, name="curso_detalhes"),
     path('adicionar_curso/', adicionar_curso, name="adicionar_curso"),
     path('sobre/', sobre.as_view(), name="sobre"),
-    path('logout/', custom_logout, name='logout'),
+    #path('logout/', custom_logout, name='logout'),
 ] + static(settings.MEDIA_URL, document_root = settings.MEDIA_ROOT)
 
 """© 2025 Cleiton Ernesto Cumbane. Todos os direitos reservados.
