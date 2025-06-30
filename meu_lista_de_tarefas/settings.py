@@ -102,6 +102,4 @@ MEDIA_ROOT = BASE_DIR / 'media'
 
 LOGIN_REDIRECT_URL = '/home/'
 
-# Debug prints para conferir se as variáveis foram lidas (opcional)
-print("DEBUG:", DEBUG)
-print("DB_HOST:", os.getenv("DB_HOST"))
+

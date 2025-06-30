@@ -41,10 +41,12 @@ class RegisterView(CreateView):
     success_url = reverse_lazy("Tela_login")
     
     def form_valid(self, form):
-        user = form.save()
+        user = form.save(commit=False)
+        user.is_active = False
+        user.save()
         send_activate_email(user, self.request)
-        #messages.success(self.request, "Conta criada com sucesso! Verifique seu email para activar a sua conta.")
         return redirect(self.success_url)
+
     
         
     def get_context_data(self, **kwargs):
@@ -101,9 +103,6 @@ class home(LoginRequiredMixin, TemplateView):
         return context
         BREVEMENTE
     """
-    
-    
-       
 class Emprego(TemplateView):
     template_name ="tarefas/Emprego.html"
     
@@ -175,7 +174,16 @@ def curso_detalhes(request, curso_id):
 class term_sessao(TemplateView):
     template_name = 'tarefas/Term_sessao.html'
     
-    
+class sobre(TemplateView):
+    template_name = 'tarefas/sobre.html'
+
+from django.contrib.auth import logout
+from django.shortcuts import redirect
+
+"""def custom_logout(request):
+    logout(request)
+    #messages.success(request, "Sessao terminada com sussesso")
+    return redirect('login')""" 
 """© 2025 Cleiton Ernesto Cumbane. Todos os direitos reservados.
    Este código faz parte do projeto SpotDjob.
    Uso não autorizado, cópia ou distribuição são proibidos sem permissão.
