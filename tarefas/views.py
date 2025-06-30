@@ -176,13 +176,13 @@ def curso_detalhes(request, curso_id):
 class sobre(TemplateView):
     template_name = 'tarefas/sobre.html'
 
-"""from django.contrib.auth import logout
+from django.contrib.auth import logout
 from django.shortcuts import redirect
 
 def custom_logout(request):
     logout(request)
     #messages.success(request, "Sessao terminada com sussesso")
-    return redirect('Tela_login')"""
+    return redirect('Tela_login')
 """© 2025 Cleiton Ernesto Cumbane. Todos os direitos reservados.
    Este código faz parte do projeto SpotDjob.
    Uso não autorizado, cópia ou distribuição são proibidos sem permissão.

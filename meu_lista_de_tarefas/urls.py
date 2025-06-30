@@ -18,7 +18,7 @@ from django.contrib import admin
 from django.urls import path
 from django.conf.urls.static import static
 from django.conf import settings
-from tarefas.views import  CustomLoginView #custom_logout
+from tarefas.views import  CustomLoginView, custom_logout
 from django.shortcuts import redirect
 from tarefas.views import RegisterView, home, adicionar_vaga, vaga_detalhes, sobre
 from django.contrib.auth import views as auth_views
@@ -41,7 +41,7 @@ urlpatterns = [
     path('detalhes_Curso/<int:curso_id>/', curso_detalhes, name="curso_detalhes"),
     path('adicionar_curso/', adicionar_curso, name="adicionar_curso"),
     path('sobre/', sobre.as_view(), name="sobre"),
-    #path('logout/', custom_logout, name='logout'),
+    path('logout/', custom_logout, name='logout'),
 ] + static(settings.MEDIA_URL, document_root = settings.MEDIA_ROOT)
 
 """© 2025 Cleiton Ernesto Cumbane. Todos os direitos reservados.
