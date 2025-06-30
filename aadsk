@@ -1,0 +1,47 @@
+[33mcommit 45c1f29937c8e88520fb916e2fdcb2fed3d089eb[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m
+Author: Cleiton258 <cleitonernestocumbane0101@gmail.com>
+Date:   Sat Jun 21 17:35:42 2025 -0400
+
+    edicao do endereco do site
+
+[33mcommit 35dd253cb73cfa25333d0b437cbf542c9b36162a[m
+Author: Cleiton258 <cleitonernestocumbane0101@gmail.com>
+Date:   Sat Jun 21 16:33:24 2025 -0400
+
+    Corrige o email
+
+[33mcommit a3f459c40c254f94f83e79ff56da066623d4fd8f[m
+Author: Cleiton258 <cleitonernestocumbane0101@gmail.com>
+Date:   Sat Jun 21 15:42:36 2025 -0400
+
+    Corrige Allowed_host para incluir dominio render
+
+[33mcommit 2de8b366c5b80d34fe8e466cfa02ca23b4b894fb[m
+Author: Cleiton258 <cleitonernestocumbane0101@gmail.com>
+Date:   Sat Jun 21 15:33:55 2025 -0400
+
+    Adiciona gunicorn para deploy em producao
+
+[33mcommit c6031f0871df501990e6b529e47b7f498a79e7f9[m
+Author: Cleiton258 <cleitonernestocumbane0101@gmail.com>
+Date:   Sat Jun 21 15:27:54 2025 -0400
+
+    Actualizar settings
+
+[33mcommit c73746fd0fdac35ed7fed111f2b197044ed53b3a[m
+Author: Cleiton258 <cleitonernestocumbane0101@gmail.com>
+Date:   Sat Jun 21 14:30:23 2025 -0400
+
+    Adicionar requirements.txt com dependencias
+
+[33mcommit 4f1012a66e277d209af50dacaada2bbf5e1baab1[m
+Author: Cleiton258 <cleitonernestocumbane0101@gmail.com>
+Date:   Sat Jun 21 12:40:11 2025 -0400
+
+    Remover arquivo .env do repositorio
+
+[33mcommit 61fd51b80194c76dcf04b9280b68ba5cd0747011[m
+Author: Cleiton258 <cleitonernestocumbane0101@gmail.com>
+Date:   Sat Jun 21 11:54:37 2025 -0400
+
+    primeiro commit do projeto spotdjob

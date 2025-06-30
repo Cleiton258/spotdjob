@@ -34,10 +34,10 @@
                 <li class="nav-item">
                   <a class="nav-link" href="{% url 'sobre' %}">Contactos</a>
                 </li>
-                {% if user.is_authenticated %}
-                <li class="nav-item">
-                  <a class="nav-link text-danger" href="{% url 'logout' %}">Terminar sessão</a>
-                </li>
+                {% if user.is_authenticated and request.resolver_match.url_name != 'Tela_login' and request.resolver_match.url_name != 'register' and request.resolver_match.url_name != 'sobre' %}
+                   <li class="nav-item">
+                       <a class="nav-link text-danger" href="{% url 'logout' %}">Terminar sessão</a>
+                   </li>
                 {% endif %}
               </ul>
             </div>
